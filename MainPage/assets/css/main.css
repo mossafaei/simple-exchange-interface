@@ -101,11 +101,11 @@ li {
 }
 
 
-.no-limit {
+.properties {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    bottom: 5rem;
+    bottom: 5%;
     align-items: baseline;
     text-align: center !important;
     width: 100%;
