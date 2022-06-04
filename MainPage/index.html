@@ -4,12 +4,90 @@
 <head>
     <title>First Page of the Exchange</title>
     <link rel="stylesheet" href="assets/css/main.css" rel="preload" as="style">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" rel="preload" as="style">
 </head>
-<body>
+<body style="background-color: #111a2b;">
+    <img onClick="location.href='#'" src="assets/images/mainlogo.png" width="100px" class="mainlogo" alt="">
+    <img onClick="location.href='#'" src="assets/images/support.svg" width="70px" class="support" alt="">
     <ul>
         <li><a class="topnav" href="#">چطور کار میکنه</a></li>
         <li><a class="topnav" href="#">سوالات شما</a></li>
-        <li><a class="topnav" href="#">ارتباط با ما</a></li>
+        <li><a class="topnav"  href="#">ارتباط با ما</a></li>
     </ul>
+
+    <div class="text-right text-position" style="color: white;" dir="ltr">
+        <p class="headtextbold">
+            !رمزارز ها را مبادله کنید
+        </p>
+        <p>
+            .به وسیله این صرافی می توانید به راحتی رمز ارز های خود را به یکدیگر تبدیل کنید
+        </p>
+    </div>
+
+    <div class="tracker d-none d-sm-block">
+        پیگیری تراکنش
+    </div>
+
+    <div class="exchange-box" style="width: 500px;">
+        <p class="text-right" style="margin-top: 1rem; margin-right: 1rem;">
+            پرداخت میکنید
+        </p>
+        
+        <div style="display: flex;">
+            <div class="dropdown dropdown-exchange">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img onClick="location.href='#'" src="assets/images/btc.png" width="25px" alt="">
+                    BTC
+                  </button>
+            </div>
+            <input type="text" class="input-text" placeholder="مقدار رمز ارز">
+        </div>
+
+        <div style="display: flex;">
+            <div style="width: 10%;"></div>
+            <img onClick="location.href='#'" style="margin-top: 1rem;" src="assets/images/tradingArrows.svg" width="35px" alt="">
+        </div>
+
+        <p class="text-right" style="margin-right: 1rem;">
+            دریافت میکنید
+        </p>
+
+        <div style="display: flex;">
+            <div class="dropdown dropdown-exchange">
+
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img onClick="location.href='#'" src="assets/images/eth.png" width="25px" alt="">
+                    ETH
+                  </button>
+            </div>
+            <input type="text" class="input-text" placeholder="مقدار رمز ارز">
+        </div>
+
+        <button type="button" class="btn btn-primary next-button">ادامه</button>
+    </div>
+
+    <div class="no-limit">
+        <div style="flex-basis: 33.333%;">
+            <img onClick="location.href='#'" src="assets/images/infinity.png" width="250px" alt="">
+            <p style="color: white;">
+                بدون محدودیت
+            </p>
+        </div>
+
+        <div style="flex-basis: 33.3333%;">
+            <img onClick="location.href='#'" src="assets/images/fast.svg" width="130px" alt="">
+            <p style="color: white;">
+                سریع
+            </p>
+        </div>
+
+        <div style="flex-basis: 33.333%;">
+            <img onClick="location.href='#'" src="assets/images/secure.svg" width="100px" alt="">
+            <p style="color: white;">
+                امن
+            </p>
+        </div>
+    </div>
+    
 </body>
 </html>
